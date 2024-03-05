@@ -13,8 +13,8 @@ do
         int num1 = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Informe o segundo numero: ");
         int num2 = Convert.ToInt32(Console.ReadLine());
-        Calculadora calculadora = new Calculadora();
-        Console.WriteLine($"A soma dos numeros {num1} + {num2} = {calculadora.Soma(num1, num2)}");
+        //Calculadora calculadora = new Calculadora();
+        Console.WriteLine($"A soma dos numeros {num1} + {num2} = {Calculadora.Soma(num1, num2)}");
        entrada = false;
     }
     catch (FormatException e)
